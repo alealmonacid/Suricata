@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+h1 { 
+    font-family: "Open Sans", sans-serif; 
+    font-size: 3.75em;  
+    font-weight: 700; 
+    margin-top: 1em;
+    color: #707070;
+}
+h3{
+    font-family: "Open Sans", sans-serif; 
+    font-size: 1em;  
+    font-weight: 700; 
+    color: #373A3C;
+}
+h2{
+    font-family: "Open Sans", sans-serif; 
+    font-size: 2.8em; 
+    font-weight: 700; 
+    color: #FFFFFF;
+}
+li{
+    font-family: "Open Sans", sans-serif; 
+    font-size: 0.8em;  
+    font-weight: 400; 
+    color: #373A3C;
+}
+p{
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 400; 
+    margin-top: 1em;
+    margin-bottom: 1em; 
+    color: #373A3C;  
+}
+nav a{
+    font-family: "Open Sans", sans-serif; 
+    font-size: 1.5em;  
+    font-weight: 400; 
+    color: #373A3C;
+}
+a{
+    font-family: "Open Sans", sans-serif; 
+    font-size: 0.8em;
+    font-weight: 400; 
+}
+
+ 
+.bg-rosa{
+    background-color: #E83E8C;
+}
+.bg-rosa a{
+    color: #FFFFFF;
+}
+
+.logo{
+    width: 50%;
+}
+.productos{
+    margin-bottom: 5%;
+    width: 100%;
+}
+.tarjeta{
+    width: auto;
+    padding: 5% 0% 5% 5%;
+}
+.icons-section{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #17A2B8;
+    padding: 5% 10% 5% 10%;
+}
+footer{
+    padding: 5%;
+}
+.logofooter{
+    width: 5em;
+}
+
+@media (max-width:568px){
+    h1 { 
+        font-family: "Open Sans", sans-serif; 
+        font-size: 2em;  
+        font-weight: 700; 
+        margin-top: 1.5em;        color: #707070;
+    }
+    h2{
+        font-family: "Open Sans", sans-serif; 
+        font-size: 1.8em; 
+        font-weight: 700; 
+        color: #FFFFFF;
+    }
+    .navbar-brand{
+        width: 50%;
+      }
+    .logo{
+        width: 120%;
+    }
+}
